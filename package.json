@@ -5,12 +5,12 @@
   "main": "index.js",
   "author": {
     "name": "aws-azure-login devs",
-    "url": "https://github.com/aws-azure-login"
+    "url": "https://github.com/jacobcrc"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws-azure-login/aws-azure-login.git"
+    "url": "hhttps://github.com/jacobcrc/aws-azure-login.git"
   },
   "bugs": "https://github.com/aws-azure-loginc/aws-azure-login/issues",
   "engines": {
