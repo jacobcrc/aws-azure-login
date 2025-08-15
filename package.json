@@ -12,16 +12,23 @@
     "type": "git",
     "url": "https://github.com/jacobcrc/aws-azure-login.git"
   },
-  "bugs": "https://github.com/aws-azure-loginc/aws-azure-login/issues",
+  "bugs":"https://github.com/jacobcrc/aws-azure-login/aws-azure-login/issues",
   "engines": {
     "node": ">=12.0"
   },
   "bin": {
     "aws-azure-login": "lib/index.js"
   },
-  "scripts": {
+    
+  "files": [
+    "lib/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "build": "tsc",
+    "prepare": "npm run build",
     "watch": "tsc -w",
     "eslint": "eslint . --ext .ts",
     "prettier:write": "prettier --write \"src/**/*.{ts,json}\"",
